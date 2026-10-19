@@ -4,7 +4,7 @@ pipeline {
 
     environment {
         DOCKER_NAME  = "neeraj91/flask-app"
-        DOCKER_TAG    = "v1.${BUILD_NUMBER}"
+        DOCKER_TAG    = "${BUILD_NUMBER}"
     }
 
     stages {
