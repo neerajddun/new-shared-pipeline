@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_NAME  = "neeraj91/flask-app"
+        DOCKER_IMAGE  = "neeraj91/flask-app"
         DOCKER_TAG    = "${BUILD_NUMBER}"
     }
 
